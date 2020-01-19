@@ -1,6 +1,8 @@
 html, body {
   height: 100%;
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Frijole', cursive;
+  background-color: goldenrod;
+  text-align: center;
 }
 
 body {
@@ -30,9 +32,10 @@ body {
   font-size: 2rem;
   width: 75px;
   height: 75px;
-  border: 1px #ccc dotted;
+  border: 1px rgb(161, 98, 148) dotted;
   border-radius: 10%;
-  background-color: white;
+  box-shadow: black;
+  background-color: gold;
   margin: 3px;
   display: flex;
   align-items: center;
@@ -40,7 +43,7 @@ body {
 }
 
 .board div:hover {
-  background-color: white;
+  background-color: rgb(255, 0, 255);
 }
 
 div.mine, div.mine:hover {
@@ -48,11 +51,11 @@ div.mine, div.mine:hover {
 }
 
 div.hidden {
-  background: #eee;
+  background: rgb(234, 3, 255);
 }
 
 div.hidden:hover {
-  background: #ccc;
+  background: purple;
 }
 
 div.marked, div.marked:hover {
